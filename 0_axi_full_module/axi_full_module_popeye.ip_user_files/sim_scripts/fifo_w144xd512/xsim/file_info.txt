@@ -1,0 +1,2 @@
+fifo_w144xd512.v,verilog,xil_defaultlib,../../../../axi_full_module_popeye.gen/sources_1/ip/fifo_w144xd512/sim/fifo_w144xd512.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

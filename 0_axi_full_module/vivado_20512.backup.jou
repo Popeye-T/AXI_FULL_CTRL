@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Jun 16 09:21:42 2025
+# Process ID: 20512
+# Current directory: C:/Users/tzh/Desktop/axi_full_module_popeye
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14476 C:\Users\tzh\Desktop\axi_full_module_popeye\axi_full_module_popeye.xpr
+# Log file: C:/Users/tzh/Desktop/axi_full_module_popeye/vivado.log
+# Journal file: C:/Users/tzh/Desktop/axi_full_module_popeye\vivado.jou
+# Running On: DESKTOP-K54KI5V, OS: Windows, CPU Frequency: 3793 MHz, CPU Physical cores: 16, Host memory: 33596 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/tzh/Desktop/axi_full_module_popeye/axi_full_module_popeye.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse {C:/Users/tzh/Desktop/axi_full_module_popeye/axi_full_module_popeye.srcs/sources_1/new/read_ctrl.v C:/Users/tzh/Desktop/axi_full_module_popeye/axi_full_module_popeye.srcs/sources_1/new/axi_read_channel.v C:/Users/tzh/Desktop/axi_full_module_popeye/axi_full_module_popeye.srcs/sources_1/new/write_buffer.v C:/Users/tzh/Desktop/axi_full_module_popeye/axi_full_module_popeye.srcs/sources_1/new/write_ctrl.v C:/Users/tzh/Desktop/axi_full_module_popeye/axi_full_module_popeye.srcs/sources_1/new/axi_full_module_popeye.v C:/Users/tzh/Desktop/axi_full_module_popeye/axi_full_module_popeye.srcs/sources_1/new/axi_write_channel.v}
+update_compile_order -fileset sources_1
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name blk_mem_gen_0
+generate_target {instantiation_template} [get_files c:/Users/tzh/Desktop/axi_full_module_popeye/axi_full_module_popeye.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+generate_target all [get_files  c:/Users/tzh/Desktop/axi_full_module_popeye/axi_full_module_popeye.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_0] }
+export_ip_user_files -of_objects [get_files c:/Users/tzh/Desktop/axi_full_module_popeye/axi_full_module_popeye.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/tzh/Desktop/axi_full_module_popeye/axi_full_module_popeye.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
