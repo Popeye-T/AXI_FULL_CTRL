@@ -1,0 +1,57 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.737391",
+   "Default View_TopLeft":"-7,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 7 -x 2400 -y 910 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 7 -x 2400 -y 930 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 6 -x 2140 -y 950 -defaultsOSRD
+preplace inst rst_ps7_0_200M -pg 1 -lvl 3 -x 950 -y 570 -defaultsOSRD
+preplace inst dds_compiler_0 -pg 1 -lvl 1 -x 160 -y 190 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 5 -x 1750 -y 490 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 4 -x 1390 -y 910 -defaultsOSRD
+preplace inst axi_gpio_1 -pg 1 -lvl 5 -x 1750 -y 630 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 4 -x 1390 -y 430 -defaultsOSRD
+preplace inst axi_full_module_pope_0 -pg 1 -lvl 3 -x 950 -y 200 -defaultsOSRD
+preplace inst data_trans_ctrl_0 -pg 1 -lvl 2 -x 520 -y 180 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 5 -x 1750 -y 770 -defaultsOSRD
+preplace inst axi_bram_ctrl_0_bram -pg 1 -lvl 6 -x 2140 -y 770 -defaultsOSRD
+preplace inst axi_protocol_convert_0 -pg 1 -lvl 5 -x 1750 -y 940 -defaultsOSRD
+preplace netloc axi_full_module_pope_0_user_rd_data 1 1 3 350 390 NJ 390 1120
+preplace netloc axi_full_module_pope_0_user_rd_last 1 1 3 340 380 NJ 380 1130
+preplace netloc axi_gpio_0_gpio_io_o 1 1 5 310 410 NJ 410 1140J 290 NJ 290 1900
+preplace netloc axi_gpio_1_gpio_io_o 1 1 5 320 670 NJ 670 1200J 660 1570J 860 1900
+preplace netloc data_trans_ctrl_0_user_rd_addr 1 2 1 N 300
+preplace netloc data_trans_ctrl_0_user_rd_length 1 2 1 690 280n
+preplace netloc data_trans_ctrl_0_user_read_vld 1 2 1 710 260n
+preplace netloc data_trans_ctrl_0_user_wr_addr 1 2 2 700 400 N
+preplace netloc data_trans_ctrl_0_user_wr_data 1 2 2 710 10 1210J
+preplace netloc data_trans_ctrl_0_user_wr_last 1 2 2 730 440 NJ
+preplace netloc data_trans_ctrl_0_user_wr_length 1 2 2 720 20 1170J
+preplace netloc data_trans_ctrl_0_user_write_vld 1 2 2 740 470 1120J
+preplace netloc dds_compiler_0_m_axis_data_tdata 1 1 1 NJ 200
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 7 20 260 300 360 750 450 1180 560 1580 1020 1900 1050 2370
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 6 330 370 760 420 1160J 300 NJ 300 NJ 300 2380
+preplace netloc rst_ps7_0_200M_peripheral_aresetn 1 3 2 1190 570 1600
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 5 1 NJ 770
+preplace netloc axi_full_module_pope_0_m_axi 1 3 1 1150 160n
+preplace netloc processing_system7_0_DDR 1 6 1 NJ 910
+preplace netloc processing_system7_0_FIXED_IO 1 6 1 NJ 930
+preplace netloc processing_system7_0_M_AXI_GP0 1 3 4 1210 670 1560J 850 NJ 850 2370
+preplace netloc ps7_0_axi_periph_M00_AXI 1 4 1 1540 470n
+preplace netloc ps7_0_axi_periph_M01_AXI 1 4 1 1590 610n
+preplace netloc ps7_0_axi_periph_M03_AXI 1 4 1 1550 750n
+preplace netloc ps7_0_axi_periph_M02_AXI 1 4 1 N 920
+preplace netloc axi_protocol_convert_0_M_AXI 1 5 1 N 940
+levelinfo -pg 1 0 160 520 950 1390 1750 2140 2400
+pagesize -pg 1 -db -bbox -sgen 0 0 2520 1150
+"
+}
+{
+   "da_axi4_cnt":"17",
+   "da_board_cnt":"1",
+   "da_bram_cntlr_cnt":"4",
+   "da_clkrst_cnt":"4"
+}
